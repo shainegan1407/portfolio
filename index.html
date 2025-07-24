@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaine Gan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <a href="#mainContent" id="skipToMain">Skip to Main Content</a>
+    <canvas id="starCanvas"></canvas>
+    <header>
+        <nav>
+            <ul id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="logo">SG</div>
+                <div>
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <label for="checkbox" class="checkbox-label">
+                        <i class="fa-solid fa-moon"></i>
+                        <i class="fa-solid fa-sun"></i>
+                        <span class="ball"></span>
+                    </label>
+                </div>
+                <li><a href="index.html" class="activeTab">About Me</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="contactMe.html">Contact Me</a></li>
+            </ul>
+            <button id="navbtn" onclick="openNav()"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+
+    </header>
+    <main id="mainContent">
+        <div class="grid">
+            <img id="headshot" src="images/Headshot.jpeg" alt="Headshot">
+
+            <div class="bubbleWrapper">
+                <div class="bubble">
+                    <h1>👋 Hi, I'm Shaine Gan.</h1>
+                    <p id="welcome">Welcome to my page, where you can find out what I'm working on. Feel free to explore and interact with the pages!</p>
+                </div>
+            </div>
+
+            <section class="textCard">
+                <h2>About Me</h2>
+                <div class="line"></div>
+                <h3 style="margin-top:5%;">What I'm doing</h3>
+                <p>I'm currently a year 2 scholar at the National University of Singapore, pursuing a Bachelor's Degree in Information Security. As a curious individual, I'm open and dedicated about learning how to enhance cyber security and gain new skills.</p>
+                <h3>Where I'm from</h3>
+                <p>I live on the sunny island Singapore, which has shaped me to become the independent, open and hardworking person I am today.</p>
+                <h3>What I'm looking for</h3>
+                <p>Opportunities to learn from Cyber Security Professionals, gain new experience and hone my skills. </p>
+            </section>
+
+            <div>
+                <div class="bubbleWrapper">
+                    <div class="bubble">
+                        <h2>📸 Check out my photo gallery! </h2>
+                    </div>
+
+                    <div class="slideshow-container">
+                        <div class="mySlides">
+                            <img src="images/MyDog.jpeg">
+                        </div>
+
+                        <div class="mySlides">
+                            <img src="images/Lake.jpeg">
+                        </div>
+
+                        <div class="mySlides">
+                            <img src="images/MountBromo.jpeg">
+                        </div>
+
+                        <div class="mySlides">
+                            <img src="images/Sakura.jpeg">
+                        </div>
+                        
+                        <button class="photosNavBar">
+                            <span class="photosNav" onclick="currentSlide(1)"><i class="fa-solid fa-paw"></i></span>
+                            <span class="photosNav" onclick="currentSlide(2)"><i class="fa-solid fa-plane-up"></i></span>
+                            <span class="photosNav" onclick="currentSlide(3)"><i class="fa-solid fa-person-hiking"></i></span>
+                            <span class="photosNav" onclick="currentSlide(4)"><i class="fa-solid fa-heart"></i></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/shaine-gan-58b226261/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i> </a>
+            </div>
+            <p>&copy; 2025 Shaine Gan. All rights reserved.</p>
+            <a href="#logo" id="backToTop">Back to Top</a>
+        </div>
+    </footer>
+</body>
+</html>
