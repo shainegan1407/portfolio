@@ -224,6 +224,19 @@ animate();
   }
 
 // Side Navigation Menu
+window.addEventListener("resize", () => {
+  const sidenav = document.getElementById("mySidenav");
+  const navbtn = document.getElementById("navbtn");
+
+  if (window.innerWidth >= 772) {
+    // Desktop view: remove any inline width
+    sidenav.style.width = "";
+  } else {
+    // Mobile view: reset to closed state
+    sidenav.style.width = "0";
+  }
+});
+
 function openNav() {
   document.getElementById("mySidenav").style.width = "40%";
   document.getElementById("mainContent").style.marginLeft = "40%";
