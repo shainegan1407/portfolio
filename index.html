@@ -15,7 +15,7 @@
     <canvas id="starCanvas"></canvas>
     <header>
         <nav>
-            <ul id="mySidenav" class="sidenav">
+            <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="logo">SG</div>
                 <div>
@@ -26,15 +26,16 @@
                         <span class="ball"></span>
                     </label>
                 </div>
-                <li><a href="index.html" class="activeTab">About Me</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="certifications.html">Certifications</a></li>
-                <li><a href="contactMe.html">Contact Me</a></li>
-            </ul>
+                <ul>
+                    <li><a href="index.html" class="activeTab">About Me</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="contactMe.html">Contact Me</a></li>
+                </ul>
+            </div>
             <button id="navbtn" onclick="openNav()"><i class="fa-solid fa-bars"></i></button>
         </nav>
-
     </header>
     <main id="mainContent">
         <div class="grid">
@@ -63,34 +64,35 @@
                     <div class="bubble">
                         <h2>📸 Check out my photo gallery! </h2>
                     </div>
-
-                    <div class="slideshow-container">
-                        <div class="mySlides">
-                            <img src="images/MyDog.jpeg">
-                        </div>
-
-                        <div class="mySlides">
-                            <img src="images/Lake.jpeg">
-                        </div>
-
-                        <div class="mySlides">
-                            <img src="images/MountBromo.jpeg">
-                        </div>
-
-                        <div class="mySlides">
-                            <img src="images/Sakura.jpeg">
-                        </div>
-                        
-                        <button class="photosNavBar">
-                            <span class="photosNav" onclick="currentSlide(1)"><i class="fa-solid fa-paw"></i></span>
-                            <span class="photosNav" onclick="currentSlide(2)"><i class="fa-solid fa-plane-up"></i></span>
-                            <span class="photosNav" onclick="currentSlide(3)"><i class="fa-solid fa-person-hiking"></i></span>
-                            <span class="photosNav" onclick="currentSlide(4)"><i class="fa-solid fa-heart"></i></span>
-                        </button>
-                    </div>
                 </div>
+                
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <img src="images/MyDog.jpeg" alt="My Brown Toypoodle">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="images/Lake.jpeg" alt="Lake Tekapo, New Zealand">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="images/MountBromo.jpeg" alt="Mount Bromo, Indonesia">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="images/Sakura.jpeg" alt="Pink Sakuras on the branch of a tree">
+                    </div>
+                    
+                    <button class="photosNavBar">
+                        <span class="photosNav" onclick="currentSlide(1)"><i class="fa-solid fa-paw"></i></span>
+                        <span class="photosNav" onclick="currentSlide(2)"><i class="fa-solid fa-plane-up"></i></span>
+                        <span class="photosNav" onclick="currentSlide(3)"><i class="fa-solid fa-person-hiking"></i></span>
+                        <span class="photosNav" onclick="currentSlide(4)"><i class="fa-solid fa-heart"></i></span>
+                    </button>
+                </div>
+    
             </div>
-            
+        </div>
     </main>
 
     <footer>
