@@ -14,7 +14,7 @@
     <canvas id="starCanvas"></canvas>
     <header>
         <nav>
-            <ul id="mySidenav" class="sidenav">
+            <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="logo">SG</div>
                 <div>
@@ -25,12 +25,14 @@
                         <span class="ball"></span>
                     </label>
                 </div>
-                <li><a href="index.html" >About Me</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="certifications.html">Certifications</a></li>
-                <li><a href="contactMe.html" class="activeTab">Contact Me</a></li>
-            </ul>
+                <ul>
+                    <li><a href="index.html" class="activeTab">About Me</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="contactMe.html">Contact Me</a></li>
+                </ul>
+            </div>
             <button id="navbtn" onclick="openNav()"><i class="fa-solid fa-bars"></i></button>
         </nav>
     </header>
@@ -44,14 +46,14 @@
             <img id="headshot" src="images/Headshot.jpeg" alt="Headshot" style="margin:12% auto;">
             <div class="textCard" style="margin-top: 15%;">
                 <h2>Let's connect! </h2>
-                <button id="linkedinbtn">
+                <div id="linkedinbtn">
                     <i class="fa-brands fa-linkedin"></i>
                     <a href="https://www.linkedin.com/in/shaine-gan-58b226261/" target="_blank" rel="noopener noreferrer">View Linkedin profile</a>
-                </button>
-                <button id="mailbtn">
+                </div>
+                <div id="mailbtn">
                     <i class="fa-solid fa-envelope"></i>
                     <a href="mailto:shainegan1407@gmail.com" target="_blank" rel="noopener noreferrer">Send email</a>
-                </button>
+                </div>
             </div>
         </div>
             
