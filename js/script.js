@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Night Mode Toggle
 if (localStorage.getItem("theme") === "dark") {
   document.documentElement.classList.add('dark');
@@ -525,5 +524,3 @@ function toggleButton(button) {
         icon.classList.add("fa-caret-down");
     }
 }
-
->>>>>>> fef5a035a0e7f08bda98c5217d30ffb8d28634e1
