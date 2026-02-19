@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
+// Star Canvas
 document.addEventListener("DOMContentLoaded", () => {
   const canvas = document.getElementById("starCanvas");
   const ctx = canvas.getContext("2d");
@@ -206,7 +206,7 @@ function showSlides(n) {
 }
 
 
-// Side Navigation Menu - FIXED
+// Side Navigation Menu
 function openNav() {
   const sidenav = document.getElementById("mySidenav");
   const main = document.getElementById("mainContent");

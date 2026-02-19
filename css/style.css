@@ -322,13 +322,13 @@ main {
 
 .tabs .tab a:hover,
 .tabs input[type="radio"]:checked + .tab a {
-  color: var(--color-dark-blue);
+  color: var(--color-dark-blue) !important;
   background-color: var(--color-light-blue);
 }
 
 body.dark .tabs .tab a:hover,
 .tabs input[type="radio"]:checked + .tab a {
-  color: #77b0ff;
+  color: #77b0ff !important;
 }
 
 .nav[style*="width"] .tabs {
@@ -762,7 +762,6 @@ body.dark #headshot:hover {
   color: #000;
 }
 
-
 /* ========================================
    TIMELINE
    ======================================== */
@@ -820,32 +819,6 @@ body.dark #headshot:hover {
   left: 50%;
 }
 
-.left::before {
-  content: " ";
-  position: absolute;
-  top: 22px;
-  right: 30px;
-  z-index: 1;
-  width: 0;
-  height: 0;
-  border: medium solid var(--color-white);
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent var(--color-white);
-}
-
-.right::before {
-  content: " ";
-  position: absolute;
-  top: 22px;
-  left: 30px;
-  z-index: 1;
-  width: 0;
-  height: 0;
-  border: medium solid var(--color-white);
-  border-width: 10px 10px 10px 0;
-  border-color: transparent var(--color-white) transparent transparent;
-}
-
 .right::after {
   left: -16px;
 }
@@ -868,13 +841,6 @@ body.dark #headshot:hover {
     padding-right: 25px;
   }
 
-  .container::before {
-    left: 60px;
-    border: medium solid var(--color-white);
-    border-width: 10px 10px 10px 0;
-    border-color: transparent var(--color-white) transparent transparent;
-  }
-
   .left::after,
   .right::after {
     left: 15px;
@@ -884,7 +850,6 @@ body.dark #headshot:hover {
     left: 0%;
   }
 }
-
 
 /* ========================================
    FOOTER
