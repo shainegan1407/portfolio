@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ctx.closePath();
     ctx.globalAlpha = alpha;
     ctx.fillStyle = color;
-    ctx.shadowColor = "#835dff";
+    ctx.shadowColor = "#185ee0";
     ctx.shadowBlur = 20;
     ctx.fill();
     ctx.restore();
