@@ -761,7 +761,6 @@ body.dark #headshot:hover {
 .photosNav i:active {
   color: #000;
 }
-
 /* ========================================
    TIMELINE
    ======================================== */
@@ -769,6 +768,7 @@ body.dark #headshot:hover {
   position: relative;
   max-width: 1200px;
   margin: var(--spacing-lg) auto;
+  padding-bottom: var(--spacing-lg); /* Add padding at bottom */
 }
 
 .timeline::after {
@@ -789,7 +789,12 @@ body.dark #headshot:hover {
   position: relative;
   width: 50%;
   padding: 10px 40px;
+  margin-bottom: 30px; /* Add space between items */
   transition: var(--transition-slow);
+}
+
+.container:last-child {
+  margin-bottom: 0; /* Remove margin from last item */
 }
 
 .container:hover {
@@ -839,6 +844,7 @@ body.dark #headshot:hover {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
+    margin-bottom: 20px; /* Adjust spacing for mobile */
   }
 
   .left::after,
