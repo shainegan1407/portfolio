@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eff4225a-7160-446a-a679-10498edbcb1d" name="Changes" comment="Update website contents">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievements.html" beforeDir="false" afterPath="$PROJECT_DIR$/achievements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contactMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactMe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/experience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/skills.html" afterDir="false" />
-    </list>
+    <list default="true" id="eff4225a-7160-446a-a679-10498edbcb1d" name="Changes" comment="Update website icon" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +112,31 @@
       <option name="project" value="LOCAL" />
       <updated>1771495975343</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update website icon">
+      <option name="closed" value="true" />
+      <created>1771507875755</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771507875755</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update website icon">
+      <option name="closed" value="true" />
+      <created>1771507891294</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1771507891294</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update website icon">
+      <option name="closed" value="true" />
+      <created>1771508204694</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771508204694</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -130,6 +147,7 @@
     <MESSAGE value="Fix margin" />
     <MESSAGE value="Fix minor styling issues" />
     <MESSAGE value="Update website contents" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update website contents" />
+    <MESSAGE value="Update website icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update website icon" />
   </component>
 </project>
