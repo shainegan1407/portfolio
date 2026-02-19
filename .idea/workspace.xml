@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eff4225a-7160-446a-a679-10498edbcb1d" name="Changes" comment="Update website icon" />
+    <list default="true" id="eff4225a-7160-446a-a679-10498edbcb1d" name="Changes" comment="Fix minor timeline bug">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactMe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/NUS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ntuLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ntuLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nusLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/nusLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/skills.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +144,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771508204694</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fix website icon bug">
+      <option name="closed" value="true" />
+      <created>1771508288946</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1771508288946</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fix minor timeline bug">
+      <option name="closed" value="true" />
+      <created>1771508478432</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771508478432</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,6 +172,8 @@
     <MESSAGE value="Fix minor styling issues" />
     <MESSAGE value="Update website contents" />
     <MESSAGE value="Update website icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update website icon" />
+    <MESSAGE value="Fix website icon bug" />
+    <MESSAGE value="Fix minor timeline bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix minor timeline bug" />
   </component>
 </project>
